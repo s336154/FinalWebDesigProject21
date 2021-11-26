@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="MobilNav.js"></script> 
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+    <div id="top-nav-large">
+        <div class="logo"><h3>0706</h3></div>
+        <div class="category-links"> 
+            <a href="Side1.html" class="category-link active">home</a>
+            <a href="Side2.html" class="category-link">about</a>
+            <a href="Side3.html" class="category-link">accessibility</a>
+            <a href="Side4.html" class="category-link">tech today</a>
+            <a href="Side5.html" class="category-link">other</a>
+        </div>
+    </div>
+
+    <div id="top-nav-mobile">
+        <div id="logo"><a href="#"><h3>0706</h3></a></div>
+        <button id="menuButton" onclick="toggleMenu()">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <span id="ham">
+                <i class="fas fa-bars"></i>
+            </span>
+            <span id="xIcon">
+                <i class="fas fa-times"></i>
+            </span>
+        </button>
+        <div id="menu" class="menu">
+            <ul>
+                <a href="Side1.html" onclick="toggleMenu()" class="menuLink"><li>Home</li></a>
+                <a href="Side2.html" onclick="toggleMenu()" class="menuLink"><li>About</li></a>
+                <a href="Side3.html" onclick="toggleMenu()" class="menuLink"><li>Accessibility</li></a>
+                <a href="Side4.html" onclick="toggleMenu()" class="menuLink"><li>Tech today</li></a>
+                <a href="Side5.html" onclick="toggleMenu()" class="menuLink"><li>Other</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-innhold">
+        Kilder
+        <ul>
+            <li>Understanding Ai <a href="https://medium.com/predict/what-is-an-ai-algorithm-aceeab80e7e3">https://medium.com/predict/what-is-an-ai-algorithm-aceeab80e7e3</a></li>
+            <li>Ethical issues in AI<a href="https://www.weforum.org/agenda/2016/10/top-10-ethical-issues-in-artificial-intelligence">https://www.weforum.org/agenda/2016/10/top-10-ethical-issues-in-artificial-intelligence</a></li>
+            <li>Benefits of AI<a href="https://www.analyticsinsight.net/advantages-and-disadvantages-of-using-artificial-intelligence/">https://www.analyticsinsight.net/advantages-and-disadvantages-of-using-artificial-intelligence/</a></li>
+            <li>AI advances in 2021<a href="https://www.technologyreview.com/2021/01/14/1016122/these-five-ai-developments-will-shape-2021-and-beyond/">https://www.technologyreview.com/2021/01/14/1016122/these-five-ai-developments-will-shape-2021-and-beyond/</a></li>
+            <li>Dangers of AI<a href="https://builtin.com/artificial-intelligence/risks-of-artificial-intelligence">https://builtin.com/artificial-intelligence/risks-of-artificial-intelligence</a></li>
+        </ul>
+    </div>
+</body>
+</html>

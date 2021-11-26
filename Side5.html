@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side5</title>
+    <script src="https://kit.fontawesome.com/2da092f1dd.js" crossorigin="anonymous"></script>
+    <!--Bootstrap greier
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    Boostrap greier-->
+    <link rel="stylesheet" href="Styling.css">
+     <script src="MobilNav.js"></script> 
+</head>
+<body style="background-color: #f9f8e6;">
+    <div id="top-nav-large">
+        <div class="logo"><h3>0706</h3></div>
+        <div class="category-links"> 
+            <a href="Side1.html" class="category-link">home</a>
+            <a href="Side2.html" class="category-link">about</a>
+            <a href="Side3.html" class="category-link">accessibility</a>
+            <a href="Side4.html" class="category-link">tech today</a>
+            <a href="Side5.html" class="category-link active">other</a>
+        </div>
+    </div>
+
+    <div id="top-nav-mobile">
+        <div id="logo"><a href="#"><h3>0706</h3></a></div>
+        <button id="menuButton" onclick="toggleMenu()">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <span id="ham">
+                <i class="fas fa-bars"></i>
+            </span>
+            <span id="xIcon">
+                <i class="fas fa-times"></i>
+            </span>
+        </button>
+        <div id="menu" class="menu">
+            <ul>
+                <a href="Side1.html" onclick="toggleMenu()" class="menuLink"><li>Home</li></a>
+                <a href="Side2.html" onclick="toggleMenu()" class="menuLink"><li>About</li></a>
+                <a href="Side3.html" onclick="toggleMenu()" class="menuLink"><li>Accessibility</li></a>
+                <a href="Side4.html" onclick="toggleMenu()" class="menuLink"><li>Tech today</li></a>
+                <a href="Side5.html" onclick="toggleMenu()" class="menuLink"><li>Other</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="kontainer" id="topp-banner-t">
+        <div class="kontainer-innhold">
+            <div class="venstre-innhold">
+                <div class="text-innhold">
+                    <div class="innhold" style="width: 80%;">
+                        <h1 class="header-title">shop the new <br> winter collection</h1>
+                        <p>Prepare yourself for winter is coming and it will be dark and cold. We have the cosiest and softest materials. Take a look!</p>
+                        <button>Shop now!</button>
+                </div>
+                </div>
+                
+            </div>
+            <div class="høyre-innhold">
+                <div class="innhold">
+                        <img src="Shop.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

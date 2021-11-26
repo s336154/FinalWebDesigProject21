@@ -1,0 +1,280 @@
+/*Nav*/
+#top-nav-mobile {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    display: none;
+  }
+  
+  #logo {
+    padding-left: 20px;
+    display: inline-block;
+    margin: 30px 0 0 30px;
+  }
+  
+  #logo a {
+    color: #181818;
+  }
+  
+  #logo h3 {
+    padding-top: 15px;
+  }
+  
+  #menuButton {
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px 0 0;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin: 30px 30px 0 0;
+  }
+
+  .fa-bars {
+    display: block;
+    padding: 15px;
+    font-size: 35px;
+    color: black;
+  }
+  
+  #ham{
+      display: block;
+      size: 60px 60px;
+  }
+
+  #xIcon {
+    display: none;
+    z-index: 20;
+  }
+
+
+  .fa-times {
+    display: inline;
+    padding: 15px;
+    font-size: 35px;
+    color: #222222;
+  }
+  
+  .showMenu {
+    transform: translateX(0) !important;
+  }
+  
+  #menu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #dae2f4;
+    transform: translateX(100%);
+    transition: transform 0.2s;
+    z-index: 11;
+    display: block;
+  }
+
+  .menuItems *{
+      display: inline;
+      margin-top: 15px;
+      padding: 15px;
+      margin-right: 50px;
+  }
+  
+  #top-nav-large {
+    display: block;
+  }
+
+  #top-nav-large span{
+      display: inline;
+      float: right;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    #top-nav-mobile {
+      display: none;
+    }
+  
+    #top-nav-large {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-device-width: 1024px) {
+    #top-nav-large {
+        display: none;
+      } 
+    #top-nav-mobile {
+      display: block;
+    }
+    #menu {
+      width: 50%;
+      transform: translateX(200%);
+    }
+  
+    .showMenu {
+      transform: translateX(100%) !important;
+    }
+  }
+  
+  @media only screen and (max-device-width: 768px) {
+    #top-nav-mobile {
+      display: block;
+    }
+    #menu {
+      width: 100%;
+      transform: translateX(100%);
+    }
+  
+    .showMenu {
+      transform: translateX(0) !important;
+    }
+  }
+  
+  #menu ul {
+    list-style: none;
+    padding-top: 100px;
+  }
+  
+  #menu li {
+    margin: 15px 0;
+    padding: 20px;
+  }
+  
+  #menu a {
+    color: 
+    #f1f2f5;
+    font-size: 1.2em;
+  }
+
+  /*  Menystyling  */
+  .menuLink li{
+      background-color: #f98b3c;
+      border-radius: 20px 0 0 20px;
+      margin: 50px;
+      font-size: 2em;
+  }
+   /*  Menystyling  */
+  /*Nav*/
+
+/**//**//**//**//**//**//**//**//**//**//**/
+  /*Navbar*/
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed !important;
+    z-index: 15;
+  }
+  
+  .logo {
+    display: inline-block;
+    padding: 50px 50px 0 5%;
+    font-weight: bold !important;
+    color: rgb(20, 20, 20);
+    /*font-family: aquafina sript;*/
+    font-size: 2em !important;
+  }
+  
+  .category-links {
+    display: inline;
+    height: 100%;
+    padding-top: 60px;
+    padding-right: 10%;
+    float: right;
+  }
+  
+  .category-link {
+    height: 100%;
+    padding: 60px 20px 20px;
+    color: rgb(20, 20, 20);
+    font-weight: bold !important;
+  }
+  
+  .active {
+    background-color: #f98b3c;
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 20% 20%;
+  }
+  
+  .category-link:hover {
+    background-color: #f98b3c;
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 20% 20%;
+    text-decoration: none;
+  }
+  
+  .nav-other {
+    padding: 60px 30px 20px;
+  }
+  .nav-other a {
+    padding: 60px 30px 20px;
+    color: rgb(20, 20, 20);
+  }
+  
+  .nav-other a:hover {
+    background-color: #f98b3c;
+    color: rgb(20, 20, 20);
+    border-radius: 0 0 20% 20%;
+  }
+
+  .nav-row{
+      width: 100%;
+  }
+  /*Navbar end*/
+
+  /*Idea 1*/
+  .content-row {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .content {
+    max-width: 600px;
+    margin-top: 100px;
+  }
+
+  .content{
+    margin: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  #idea1 img{
+    width: 100%;
+  }
+  #idea1 p{
+      font-size: 1em;
+  }
+
+  .spacer{
+      width: 100%;
+      height: 250px;
+  }
+/*Idea1*/
+  /*Container 2*/
+  .container2{
+    width: 100%;
+    margin: 200px 0;
+}
+
+.container2 image{
+  width: auto;
+}
+
+.container2 .content{
+    top: auto;
+    bottom: 0 !important;
+}
+
+.imageFrame{
+    width: 100%; 
+    height: 400px; 
+    background-image: url("../Images/placeholder.png");
+    background-size: cover;
+  }
+ /*Container 2*/
